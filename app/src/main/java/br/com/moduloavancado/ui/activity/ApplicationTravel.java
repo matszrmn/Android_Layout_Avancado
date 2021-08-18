@@ -2,6 +2,8 @@ package br.com.moduloavancado.ui.activity;
 
 import android.app.Application;
 
+import androidx.appcompat.app.AppCompatDelegate;
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
@@ -13,6 +15,7 @@ public class ApplicationTravel extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
         Travel t1 = new Travel("Death Valley", new BigInteger("6"), BigDecimal.valueOf(55.67), "death_valley");
         Travel t2 = new Travel("Waters Flush", new BigInteger("1"), BigDecimal.valueOf(400.00), "hanging_leaf");
