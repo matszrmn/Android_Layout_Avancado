@@ -54,25 +54,24 @@
         app:layout_constraintTop_toBottomOf="@id/activity_main_banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:background="@color/fresh_gray"
         android:backgroundTint="@color/fresh_gray">
 
         <ListView
+            android:paddingBottom="150dp"
+            android:clipToPadding="false"
+            android:scrollbarStyle="outsideOverlay"
+
             android:id="@+id/activity_main_list"
             style="@style/activity_main_list"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="17dp"
-            android:layout_marginEnd="15dp"
-            android:scrollbarFadeDuration="@integer/material_motion_duration_long_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@null"
-            tools:listitem="@layout/card_item"
-            android:paddingBottom="160dp"/>
+            tools:listitem="@layout/card_item" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/testt"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
