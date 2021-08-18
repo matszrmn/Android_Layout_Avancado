@@ -15,12 +15,26 @@
     </style>
     <style name="default_template">
         <item name="android:background">@color/fresh_gray</item>
+        <item name="colorPrimary">@color/fresh_gray</item>
+        <item name="android:colorPrimary">@color/fresh_gray</item>
+        <item name="colorSurface">@color/fresh_gray</item>
     </style>
     <style name="activity_main_list">
+        <item name="android:background">@color/fresh_gray</item>
+        <item name="colorPrimary">@color/fresh_gray</item>
+        <item name="android:colorPrimary">@color/fresh_gray</item>
+        <item name="colorSurface">@color/fresh_gray</item>
+        <item name="backgroundTint">@color/fresh_gray</item>
+        <item name="android:backgroundTint">@color/fresh_gray</item>
         <item name="android:overScrollFooter">@color/fresh_gray</item>
         <item name="android:overScrollHeader">@color/fresh_gray</item>
     </style>
     <style name="card_item_style">
+        <item name="colorPrimary">@color/fresh_gray</item>
+        <item name="android:colorPrimary">@color/fresh_gray</item>
+        <item name="colorSurface">@color/fresh_gray</item>
+        <item name="backgroundTint">@color/fresh_gray</item>
+        <item name="android:backgroundTint">@color/fresh_gray</item>
         <item name="strokeColor">@color/black</item>
     </style>
 </resources>
