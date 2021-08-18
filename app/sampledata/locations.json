@@ -1,0 +1,22 @@
+{
+  "locations" : [
+    {
+      "image": "@drawable/death_valley",
+      "name": "Death Valley",
+      "days": "5 dias",
+      "value": "R$ 450,00"
+    },
+    {
+      "image": "@drawable/hanging_leaf",
+      "name": "Hanging Leaf",
+      "days": "2 dias",
+      "value": "R$ 90,00"
+    },
+    {
+      "image": "@drawable/kauai",
+      "name": "Kauai Mawaii",
+      "days": "1 dia",
+      "value": "R$ 290,00"
+    }
+  ]
+}

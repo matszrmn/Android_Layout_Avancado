@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/default_template"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--app:cardUseCompatPadding="true"-->
+    <!--app:cardElevation="10dp"-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_main"
+        style="@style/card_item_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false"
+        app:cardCornerRadius="6dp"
+        app:strokeWidth="3dp"
+        app:contentPadding="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:cardBackgroundColor="@color/white">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/activity_main_item_image1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/image_list_item"
+                android:scaleType="fitXY"
+                android:src="@drawable/death_valley"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@sample/locations.json/locations/image" />
+
+            <TextView
+                android:id="@+id/activity_main_item_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:drawable/screen_background_dark_transparent"
+                android:padding="4dp"
+                android:text="@string/death_valley"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/activity_main_item_image1"
+                app:layout_constraintStart_toStartOf="@id/activity_main_item_image1"
+                tools:text="@sample/locations.json/locations/name" />
+
+            <View
+                android:id="@+id/activity_main_item_divisor1"
+                android:layout_width="0dp"
+                android:layout_height="5dp"
+                android:background="@android:color/holo_blue_bright"
+                app:layout_constraintEnd_toEndOf="@id/activity_main_item_image1"
+                app:layout_constraintStart_toStartOf="@id/activity_main_item_image1"
+                app:layout_constraintTop_toBottomOf="@id/activity_main_item_image1" />
+
+            <TextView
+                android:id="@+id/activity_main_item_days1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/_5_dias"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/activity_main_item_divisor1"
+                app:layout_constraintTop_toBottomOf="@id/activity_main_item_divisor1"
+                tools:text="@sample/locations.json/locations/days" />
+
+            <TextView
+                android:id="@+id/activity_main_item_value1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/r_400_00"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/activity_main_item_days1"
+                app:layout_constraintTop_toBottomOf="@id/activity_main_item_days1"
+                tools:text="@sample/locations.json/locations/value" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

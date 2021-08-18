@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ModuloAvancado" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorSurface">@color/fresh_gray</item>
+        <!--<item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+    </style>
+    <style name="banner_activity_main">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="default_template">
+        <item name="android:background">@color/fresh_gray</item>
+    </style>
+    <style name="activity_main_list">
+        <item name="android:overScrollFooter">@color/fresh_gray</item>
+        <item name="android:overScrollHeader">@color/fresh_gray</item>
+    </style>
+    <style name="card_item_style">
+        <item name="strokeColor">@color/black</item>
+    </style>
+</resources>

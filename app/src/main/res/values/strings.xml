@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ModuloAvancado</string>
+    <string name="activity_main_especiais">Pacotes Especiais</string>
+    <string name="activity_main_inglaterra">Inglaterra</string>
+    <string name="image_list_item">image list item</string>
+    <string name="death_valley">Death Valley</string>
+    <string name="_5_dias">5 dias</string>
+    <string name="r_400_00">R$ 400,00</string>
+</resources>
