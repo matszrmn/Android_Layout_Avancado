@@ -55,10 +55,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/fresh_gray"
-        android:backgroundTint="@color/fresh_gray">
+        android:backgroundTint="@color/fresh_gray"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
 
         <ListView
-            android:paddingBottom="150dp"
+            android:scrollbars="none"
+            android:paddingBottom="165dp"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
 
