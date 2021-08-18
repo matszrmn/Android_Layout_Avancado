@@ -13,23 +13,20 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_main"
         style="@style/card_item_style"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="6dp"
-        app:cardPreventCornerOverlap="false"
-        app:cardUseCompatPadding="false"
-        app:cardCornerRadius="6dp"
-        app:strokeWidth="3dp"
+        app:cardCornerRadius="7dp"
+        app:strokeWidth="2dp"
         app:contentPadding="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:cardBackgroundColor="@color/white">
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
