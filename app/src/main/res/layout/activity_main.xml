@@ -71,18 +71,4 @@
             tools:listitem="@layout/card_item" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/testt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <View
-            android:id="@+id/activity_main_fixed_view"
-            android:layout_width="match_parent"
-            android:layout_height="58dp"
-            android:background="@android:color/holo_red_light"/>
-    </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
